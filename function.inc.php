@@ -31,9 +31,9 @@ function send_email($email,$html,$subject){
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="alfaalfi00001@gmail.com";
-	$mail->Password="alfa00001alfi";
-	$mail->setFrom("alfaalfi00001@gmail.com");
+	$mail->Username="alfaal001@gmail.com";
+	$mail->Password="asfdfdsf";
+	$mail->setFrom("alfaal001@gmail.com");
 	$mail->addAddress($email);
 	$mail->IsHTML(true);
 	$mail->Subject=$subject;
